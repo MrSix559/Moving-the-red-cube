@@ -1,42 +1,42 @@
 # 🟥 Moving the Red Cube
 
-**"Moving the Red Cube"** — это простой бесконечный раннер, созданный на Unity3D. Игрок управляет красным кубом, который двигается по бесконечно генерируемой карте, избегая препятствий и зарабатывая очки.
+**‘Moving the Red Cube’** is a simple endless runner created on Unity3D. The player controls a red cube that moves across an infinitely generated map, avoiding obstacles and earning points.
 
 ---
 
-## 🎮 Геймплей
+## 🎮 Gameplay
 
-- Управление: тап / клик (в зависимости от платформы)
-- Цель: набрать как можно больше очков, избегая смерти
-- Постепенное увеличение сложности по мере прохождения
+- Controls: tap/click (depending on the platform)
+- Goal: earn as many points as possible while avoiding death
+- Gradually increasing difficulty as you progress
 
 ---
 
-## 🛠️ Что использовано в проекте
+## 🛠️ What was used in the project
 
 - **Unity 2022.3.50f1**
 - **C#**
-- **DOTween** — для анимаций
-- **TextMesh Pro** — UI-отображение текста
-- **События (Action / Event)** — для связи между системами
-- **Зашифрованное Сохранение данных** через `EncryptedPlayerPrefs`
-- **Пул объектов** — для оптимизированного спавна блоков и генерации карты
-- **Автоматическая генерация карты** из чанков
+- **DOTween** — for animations
+- **TextMesh Pro** — UI text display
+- **Events (Action / Event)** — for communication between systems
+- **Encrypted data storage** via `EncryptedPlayerPrefs`
+- **Object pool** — for optimised block spawning and map generation
+- **Automatic map generation** from chunks
 
 ---
 
-## 🧠 Архитектура
+## 🧠 Architecture
 
-Проект разделён по зонам:
-- `Game/` — логика игры: генерация, смерть, очки
-- `Menu/` — главное меню и настройки
-- `UI/` — управление пользовательским интерфейсом
-- `Pool/` — реализация пула объектов
-- `MapGenerator/` — чанки и генерация уровня
+The project is divided into zones:
+- `Game/` — game logic: generation, death, points
+- `Menu/` — main menu and settings
+- `UI/` — user interface management
+- `Pool/` — object pool implementation
+- `MapGenerator/` — chunks and level generation
 
 ---
 
-## 📸 Скриншоты/Видео геймплея
+## 📸 Screenshots/Gameplay videos
 <img width="500" height="500" alt="MovingTheRedCubeIcon" src="https://github.com/user-attachments/assets/1dd5af78-11db-4196-b272-cd40bdc163bc" />
 
 https://github.com/user-attachments/assets/e144552e-81cb-4d4a-9e69-3c5cc027e606
@@ -44,25 +44,23 @@ https://github.com/user-attachments/assets/e144552e-81cb-4d4a-9e69-3c5cc027e606
 
 ---
 
-## 💾 Сохранение и настройки
+## 💾 Saving and settings
 
-- Игра сохраняет:
-  - цвет куба,
-  - FPS настройки,
-  - включение/выключение звуков и музыки
+- The game saves:
+  - cube colour,
+  - FPS settings,
+  - sound and music on/off
 ---
-
 > ❗ Если вы открываете проект, убедитесь, что у вас установлен DOTween и TextMesh Pro
-
 ---
 
-## 🧑‍💻 Автор
+## 🧑‍💻 Author
 
 - **MrSix559**
 - [GitHub](https://github.com/MrSix559)
 
 ---
 
-## 📜 Лицензия
+## 📜 Licence
 
-Этот проект выложен сугобо для моего личного портфолио. Вы можете использовать его в личных целях, но, пожалуйста, указывайте автора при копировании/публикации - **MrSix559**.
+This project is posted solely for my personal portfolio. You may use it for personal purposes, but please credit the author when copying/publishing - **MrSix559**.
